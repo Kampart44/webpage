@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.slideshow.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#SlideShow1").slideshow(
+   {
+      interval: 3000,
+      type: 'sequence',
+      effect: 'none',
+      direction: '',
+      pagination: false,
+      effectlength: 2000
+   });
+});
+</script>
+</head>
+<body onclick="ShowObjectWithEffect('SlideShow1', 0, 'fade', 500);return false;">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_Text1" style="position:absolute;left:602px;top:148px;width:201px;height:15px;z-index:1;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Amazing website that I created</span></div>
+<hr id="Line1" style="position:absolute;left:42px;top:175px;width:1305px;z-index:2;">
+<div id="SlideShow1" style="position:absolute;left:187px;top:359px;width:303px;height:425px;border-radius:0px;z-index:3;">
+<img class="image" src="images/omniman_0-0.png" alt="" title="">
+<img class="image" src="images/omniman_0-1.png" style="display:none;" alt="" title="">
+<img class="image" src="images/omniman_0-2.png" style="display:none;" alt="" title="">
+<img class="image" src="images/omniman_0-3.png" style="display:none;" alt="" title="">
+</div>
+<div id="wb_Breadcrumb1" style="position:absolute;left:345px;top:274px;width:695px;height:55px;z-index:4;vertical-align:top;">
+<ul id="Breadcrumb1">
+<li><a href="">Home</a></li>
+<li><a href="">Parent Category</a></li>
+<li><a href="">Current Category</a></li>
+</ul>
+</div>
+<div id="wb_MediaPlayer1" style="position:absolute;left:602px;top:540px;width:100px;height:100px;z-index:5;">
+<audio id="MediaPlayer1" autoplay controls>
+<source src="Bird.wav" type="audio/wav">
+</audio>
+</div>
+</body>
+</html>
